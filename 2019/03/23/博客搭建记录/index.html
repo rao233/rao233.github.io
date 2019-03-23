@@ -5,15 +5,30 @@
   
 
   
-  <title>Hexo</title>
+  <title>博客搭建记录 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="一、环境搭建，软件安装1.安装node.js下载安装(如图)node.js包含两个组件:npm和node.js本身检验node.js安装完成:打开命令行，分别node -v和npm -v(如图) 2.git的下载与安装官网下载 安装教程参考:https://blog.csdn.net/ainuser/article/details/77609180(利用此方法安装后貌似会自动配置环境变量)  3.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="博客搭建记录">
+<meta property="og:url" content="http://yoursite.com/2019/03/23/博客搭建记录/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、环境搭建，软件安装1.安装node.js下载安装(如图)node.js包含两个组件:npm和node.js本身检验node.js安装完成:打开命令行，分别node -v和npm -v(如图) 2.git的下载与安装官网下载 安装教程参考:https://blog.csdn.net/ainuser/article/details/77609180(利用此方法安装后貌似会自动配置环境变量)  3.">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/images/nodejs安装完成.jpg">
+<meta property="og:image" content="http://yoursite.com/images/nodejs安装检测.jpg">
+<meta property="og:image" content="http://yoursite.com/images/git安装成功验证.jpg">
+<meta property="og:image" content="http://yoursite.com/images/cnpm安装hexo过程.jpg">
+<meta property="og:image" content="http://yoursite.com/images/hexo安装成功检验.jpg">
+<meta property="og:image" content="http://yoursite.com/images/hexo初始化完成.jpg">
+<meta property="og:image" content="http://yoursite.com/images/生成博客.jpg">
+<meta property="og:image" content="http://yoursite.com/images/本地访问localhost4000.jpg">
+<meta property="og:image" content="http://yoursite.com/images/_config.yml文件配置.jpg">
+<meta property="og:image" content="http://yoursite.com/images/ssh配置成功.jpg">
+<meta property="og:updated_time" content="2019-03-23T10:44:29.515Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="博客搭建记录">
+<meta name="twitter:description" content="一、环境搭建，软件安装1.安装node.js下载安装(如图)node.js包含两个组件:npm和node.js本身检验node.js安装完成:打开命令行，分别node -v和npm -v(如图) 2.git的下载与安装官网下载 安装教程参考:https://blog.csdn.net/ainuser/article/details/77609180(利用此方法安装后貌似会自动配置环境变量)  3.">
+<meta name="twitter:image" content="http://yoursite.com/images/nodejs安装完成.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +75,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-博客搭建记录" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-博客搭建记录" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/03/23/博客搭建记录/" class="article-date">
   <time datetime="2019-03-23T11:20:39.260Z" itemprop="datePublished">2019-03-23</time>
@@ -75,8 +88,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/23/博客搭建记录/">博客搭建记录</a>
+    <h1 class="article-title" itemprop="name">
+      博客搭建记录
     </h1>
   
 
@@ -122,56 +135,19 @@ $ hexo s
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/03/23/hello-world/" class="article-date">
-  <time datetime="2019-03-23T10:52:01.260Z" itemprop="datePublished">2019-03-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/23/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2019/03/23/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/23/hello-world/" data-id="cjtlekefk0000vsumt48c1pf6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
