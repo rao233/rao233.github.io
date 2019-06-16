@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="我们在这个世界上只能生活几十年，虽然我们为不能活得更久而感到遗憾，但我已经非常幸运，能够得到这么多东西了。整个宇宙只不过是一堆旋转的原子，组成各种各样不同的东西，然后又消散。大多数原子，根本没有过生命。大多数原子没有成为人，没有谈过恋爱，没有看过落日，没有吃过冰淇淋。我们非常幸运，能够作为一个人来到这个世界上。在我看来，对待死亡正确的情绪不应该是恐惧和悲伤，而应该是感激我们有幸能拥有生命。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta name="description" content="模2运算模2运算，与四则运算相同的是，模2运算也包括模2加，模2减，模2乘，模2除。运算符也相同。不同的是，模2运算是不考虑进位与借位，这两个位的值就能确定运算结果，不受前一次运算的结果，也不对下一次造成影响。  模2加法运算定义：0+0=0  0+1=1  1+0=1  1+1=0 模2减法运算定义：0-0=0  0-1=1  1-0=1  1-1=0 模2乘法运算定义：0×0=0  0×1=0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="crc-模2运算">
+<meta property="og:url" content="http://yoursite.com/2019/06/16/crc-模2运算/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="我们在这个世界上只能生活几十年，虽然我们为不能活得更久而感到遗憾，但我已经非常幸运，能够得到这么多东西了。整个宇宙只不过是一堆旋转的原子，组成各种各样不同的东西，然后又消散。大多数原子，根本没有过生命。大多数原子没有成为人，没有谈过恋爱，没有看过落日，没有吃过冰淇淋。我们非常幸运，能够作为一个人来到这个世界上。在我看来，对待死亡正确的情绪不应该是恐惧和悲伤，而应该是感激我们有幸能拥有生命。">
+<meta property="og:description" content="模2运算模2运算，与四则运算相同的是，模2运算也包括模2加，模2减，模2乘，模2除。运算符也相同。不同的是，模2运算是不考虑进位与借位，这两个位的值就能确定运算结果，不受前一次运算的结果，也不对下一次造成影响。  模2加法运算定义：0+0=0  0+1=1  1+0=1  1+1=0 模2减法运算定义：0-0=0  0-1=1  1-0=1  1-1=0 模2乘法运算定义：0×0=0  0×1=0">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-23T16:13:38.486Z">
+<meta property="og:updated_time" content="2019-06-16T16:11:20.821Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="我们在这个世界上只能生活几十年，虽然我们为不能活得更久而感到遗憾，但我已经非常幸运，能够得到这么多东西了。整个宇宙只不过是一堆旋转的原子，组成各种各样不同的东西，然后又消散。大多数原子，根本没有过生命。大多数原子没有成为人，没有谈过恋爱，没有看过落日，没有吃过冰淇淋。我们非常幸运，能够作为一个人来到这个世界上。在我看来，对待死亡正确的情绪不应该是恐惧和悲伤，而应该是感激我们有幸能拥有生命。">
+<meta name="twitter:title" content="crc-模2运算">
+<meta name="twitter:description" content="模2运算模2运算，与四则运算相同的是，模2运算也包括模2加，模2减，模2乘，模2除。运算符也相同。不同的是，模2运算是不考虑进位与借位，这两个位的值就能确定运算结果，不受前一次运算的结果，也不对下一次造成影响。  模2加法运算定义：0+0=0  0+1=1  1+0=1  1+1=0 模2减法运算定义：0-0=0  0-1=1  1-0=1  1-1=0 模2乘法运算定义：0×0=0  0×1=0">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/16/crc-模2运算/">
 
 
 
 
 
-  <title>about | Hexo</title>
+  <title>crc-模2运算 | Hexo</title>
   
 
 
@@ -250,35 +250,157 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/16/crc-模2运算/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Rao">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">about</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <p>我们在这个世界上只能生活几十年，虽然我们为不能活得更久而感到遗憾，但我已经非常幸运，能够得到这么多东西了。整个宇宙只不过是一堆旋转的原子，组成各种各样不同的东西，然后又消散。大多数原子，根本没有过生命。大多数原子没有成为人，没有谈过恋爱，没有看过落日，没有吃过冰淇淋。我们非常幸运，能够作为一个人来到这个世界上。在我看来，对待死亡正确的情绪不应该是恐惧和悲伤，而应该是感激我们有幸能拥有生命。</p>
+          <h1 class="post-title" itemprop="name headline">crc-模2运算</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-16T23:03:44+08:00">
+                2019-06-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/06/16/crc-模2运算/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/06/16/crc-模2运算/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="模2运算"><a href="#模2运算" class="headerlink" title="模2运算"></a>模2运算</h1><p>模2运算，与四则运算相同的是，模2运算也包括模2加，模2减，模2乘，模2除。运算符也相同。<br>不同的是，模2运算是不考虑进位与借位，这两个位的值就能确定运算结果，不受前一次运算的结果，也不对下一次造成影响。</p>
+<ul>
+<li>模2加法运算定义：0+0=0  0+1=1  1+0=1  1+1=0</li>
+<li>模2减法运算定义：0-0=0  0-1=1  1-0=1  1-1=0</li>
+<li>模2乘法运算定义：0×0=0  0×1=0  1×0=0  1×1=1</li>
+<li>模2除法运算定义：0÷1=0  1÷1=1  在CRC运算中，总能保证除数的首位为1</li>
+</ul>
+<h2 id="总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。"><a href="#总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。" class="headerlink" title="总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。"></a>总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。</h2><h1 id="crc循环冗余校验"><a href="#crc循环冗余校验" class="headerlink" title="crc循环冗余校验"></a>crc循环冗余校验</h1><p>循环冗余校验（Cyclic Redundancy Check,CRC）编码是局域网和广域网的数据链路层通信中常用的检错方式，其基本思想就是在需发送数据后面添加一组与数据相关的冗余码，冗余码位数越多，检错能力就越强，当然传输的额外开销也就越大。基本思想是将任何一个二进制位串看成一个多项式，多项式系数只能是0和1，即k位的二进制位串，多项式最高次位k-1。多用16进制表示。<br>记发送数据为 k(x),事先约定好的生成多项式记为 G(x)，G(x)最高为次数为r, x^r <em> k(x) 与 G(x)分别对应的系数进行模2除法运算得到 R(x),即 R(x)=mod(x^r </em> k(x),G(x))，R(x)的首项次数为r-1。传输的数据就是 c(x) = x^r * k(x) + R(x)。最后接受方将得到的C(x)再对G(x)进行模2运算，若传输正确，其余数一定为0。(至于为什么为0就正确，看书证明没懂@-@)</p>
 <hr>
+<p>除法不易作图，图就不配了，列几个网上找的题目好了<br>生成多项式:G(X)=X4+X3+1，要求出二进制序列10110011的CRC校验码。 0100<br>若信息码字为11100011，生成多项式 G（X）=X5+X4+X+1，则计算出的 CRC 校验码为？11010<br>信息码为101110101，生成多项式X4+X2+1，求冗余位？1100<br>假若接收到的信息是11001010101，用多项式G(x)=x5+x4+x+1校验是否正确  不正确</p>
 
-        
-      </div>
-      
-      
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/16/命令行/" rel="next" title="命令行">
+                <i class="fa fa-chevron-left"></i> 命令行
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -314,8 +436,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -357,6 +488,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#模2运算"><span class="nav-number">1.</span> <span class="nav-text">模2运算</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。"><span class="nav-number">1.1.</span> <span class="nav-text">总结：模2加和模2减两种运算与逻辑异或运算结果完全相同，此外，模2乘除都以模2加减为基础。因此我们可以把模2运算看作简单的异或运算。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#crc循环冗余校验"><span class="nav-number">2.</span> <span class="nav-text">crc循环冗余校验</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
